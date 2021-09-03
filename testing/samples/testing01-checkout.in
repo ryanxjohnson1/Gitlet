@@ -1,0 +1,22 @@
+#tests that checkout3 works and that branch works
+> init
+<<<
+E .gitlet
+> branch x
+<<<
++ notwug.txt notwug.txt
+> add notwug.txt
+<<<
+> commit "nw"
+<<<
+> checkout x
+<<<
++ wug.txt wug.txt
+> add wug.txt
+<<<
+> commit "w"
+<<<
+> checkout master
+<<<
+* wug.txt
+= notwug.txt notwug.txt

@@ -1,0 +1,21 @@
+#Tests the functionality of rm
+> init
+<<<
+E .gitlet
++  notwug.txt notwug.txt
+> add notwug.txt
+<<<
+> commit "notwug added"
+<<<
+> rm notwug.txt
+<<<
+> commit "blank"
+<<<
+* notwug.txt
++  wug.txt notwug.txt
+> add wug.txt
+<<<
+> commit "wug"
+<<<
+* notwug.txt
+= wug.txt notwug.txt

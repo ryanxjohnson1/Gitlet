@@ -1,0 +1,19 @@
+#tests that checkout3 works
+> init
+<<<
+E .gitlet
++ notwug.txt notwug.txt
+> add notwug.txt
+<<<
+> commit "notwug added"
+<<<
+> branch given
+<<<
++ notwug.txt wug.txt
+> add notwug.txt
+<<<
+> commit "notwug changed"
+<<<
+> checkout given
+<<<
+= notwug.txt notwug.txt

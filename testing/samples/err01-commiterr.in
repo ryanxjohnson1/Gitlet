@@ -1,0 +1,18 @@
+#Tests that the program provides the correct output for some error cases
+> init
+<<<
+E .gitlet
++  wug.txt wug.txt
+> add wug.txt
+<<<
+> commit ""
+Please enter a commit message.
+<<<
+> commit "wug"
+<<<
+> commit "wug"
+No changes added to the commit.
+<<<
+> init
+A Gitlet version-control system already exists in the current directory.
+<<<
